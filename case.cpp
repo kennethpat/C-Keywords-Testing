@@ -1,5 +1,4 @@
 #include <cstdio>
-#include <cstdlib>
 
 int main()
 {
@@ -46,7 +45,7 @@ int main()
             break;
         default:
             printf("Invalid input!\n");
-            exit(1);
+            return 1;
     }
     
     return 0;
