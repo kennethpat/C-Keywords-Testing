@@ -4,7 +4,7 @@ int main()
     const int b = a + 1; // allowed
     
     const int c = 0;
-    //constexpr int d = a + 1; // not allowed
+    //constexpr int d = a + 1; // not allowed because a is not const
     constexpr int d = c + 1; // allowed
     
     return 0;
