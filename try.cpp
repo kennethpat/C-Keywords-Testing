@@ -8,11 +8,11 @@ int main()
     {
         throw &a;
     }
-    catch (char* c)
+    catch (char *c)
     {
         printf("Caught char: %c\n", *c);
     }
-    catch (int* i)
+    catch (int *i)
     {
         printf("Caught int: %d\n", *i);
     }
