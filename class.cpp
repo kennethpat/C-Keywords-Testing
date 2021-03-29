@@ -5,6 +5,7 @@ class Rect
 private:
     int length;
     int width;
+    
 public:
     Rect()
     {
@@ -32,6 +33,7 @@ public:
     {
         return (length * width);
     }
+    ~Rect() { }
 };
  
 int main()
